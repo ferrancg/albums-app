@@ -1,0 +1,95 @@
+0 info it worked if it ends with ok
+1 verbose cli [ '/usr/local/bin/node',
+1 verbose cli   '/usr/local/bin/npm',
+1 verbose cli   'install',
+1 verbose cli   'https://github.com/rvl/bower-angular-component-router' ]
+2 info using npm@3.10.3
+3 info using node@v4.2.6
+4 silly loadCurrentTree Starting
+5 silly install loadCurrentTree
+6 silly install readLocalPackageData
+7 silly fetchPackageMetaData https://github.com/rvl/bower-angular-component-router
+8 silly fetchOtherPackageData https://github.com/rvl/bower-angular-component-router
+9 silly cache add args [ 'https://github.com/rvl/bower-angular-component-router',
+9 silly cache add   null ]
+10 verbose cache add spec https://github.com/rvl/bower-angular-component-router
+11 silly cache add parsed spec Result {
+11 silly cache add   raw: 'https://github.com/rvl/bower-angular-component-router',
+11 silly cache add   scope: null,
+11 silly cache add   escapedName: null,
+11 silly cache add   name: null,
+11 silly cache add   rawSpec: 'https://github.com/rvl/bower-angular-component-router',
+11 silly cache add   spec: 'git+https://github.com/rvl/bower-angular-component-router.git',
+11 silly cache add   type: 'hosted',
+11 silly cache add   hosted:
+11 silly cache add    { type: 'github',
+11 silly cache add      ssh: 'git@github.com:rvl/bower-angular-component-router.git',
+11 silly cache add      sshUrl: 'git+ssh://git@github.com/rvl/bower-angular-component-router.git',
+11 silly cache add      httpsUrl: 'git+https://github.com/rvl/bower-angular-component-router.git',
+11 silly cache add      gitUrl: 'git://github.com/rvl/bower-angular-component-router.git',
+11 silly cache add      shortcut: 'github:rvl/bower-angular-component-router',
+11 silly cache add      directUrl: 'https://raw.githubusercontent.com/rvl/bower-angular-component-router/master/package.json' } }
+12 verbose addRemoteGit caching https://github.com/rvl/bower-angular-component-router
+13 verbose addRemoteGit git+https://github.com/rvl/bower-angular-component-router.git is a repository hosted by github
+14 silly tryClone cloning git+https://github.com/rvl/bower-angular-component-router.git via git+https://github.com/rvl/bower-angular-component-router.git
+15 verbose tryClone git-https-github-com-rvl-bower-angular-component-router-git-a93fc7e0 not in flight; caching
+16 verbose correctMkdir /Users/farongcheng/.npm/_git-remotes correctMkdir not in flight; initializing
+17 verbose makeDirectory /Users/farongcheng/.npm/_git-remotes creation not in flight; initializing
+18 silly makeDirectory /Users/farongcheng/.npm/_git-remotes uid: 501 gid: 20
+19 info git [ 'clone',
+19 info git   '--template=/Users/farongcheng/.npm/_git-remotes/_templates',
+19 info git   '--mirror',
+19 info git   'https://github.com/rvl/bower-angular-component-router.git',
+19 info git   '/Users/farongcheng/.npm/_git-remotes/git-https-github-com-rvl-bower-angular-component-router-git-a93fc7e0' ]
+20 verbose mirrorRemote git+https://github.com/rvl/bower-angular-component-router.git git clone https://github.com/rvl/bower-angular-component-router.git
+21 verbose correctMkdir /Users/farongcheng/.npm/_git-remotes correctMkdir not in flight; initializing
+22 verbose setPermissions git+https://github.com/rvl/bower-angular-component-router.git set permissions on /Users/farongcheng/.npm/_git-remotes/git-https-github-com-rvl-bower-angular-component-router-git-a93fc7e0
+23 verbose resolveHead git+https://github.com/rvl/bower-angular-component-router.git original treeish: master
+24 info git [ 'rev-list', '-n1', 'master' ]
+25 silly resolveHead git+https://github.com/rvl/bower-angular-component-router.git resolved treeish: e7a834db5c2bd9378be5e2644131e0cd5c93c978
+26 verbose resolveHead git+https://github.com/rvl/bower-angular-component-router.git resolved Git URL: git+https://github.com/rvl/bower-angular-component-router.git#e7a834db5c2bd9378be5e2644131e0cd5c93c978
+27 silly resolveHead Git working directory: /var/folders/85/wrtsw2995vj2kq613h1n7zrh0000gn/T/npm-10344-f5fa1e5a/git-cache-4bb7a3b7/e7a834db5c2bd9378be5e2644131e0cd5c93c978
+28 info git [ 'clone',
+28 info git   '/Users/farongcheng/.npm/_git-remotes/git-https-github-com-rvl-bower-angular-component-router-git-a93fc7e0',
+28 info git   '/var/folders/85/wrtsw2995vj2kq613h1n7zrh0000gn/T/npm-10344-f5fa1e5a/git-cache-4bb7a3b7/e7a834db5c2bd9378be5e2644131e0cd5c93c978' ]
+29 verbose cloneResolved git+https://github.com/rvl/bower-angular-component-router.git clone Cloning into '/var/folders/85/wrtsw2995vj2kq613h1n7zrh0000gn/T/npm-10344-f5fa1e5a/git-cache-4bb7a3b7/e7a834db5c2bd9378be5e2644131e0cd5c93c978'...
+29 verbose cloneResolved done.
+30 info git [ 'checkout', 'e7a834db5c2bd9378be5e2644131e0cd5c93c978' ]
+31 verbose checkoutTreeish git+https://github.com/rvl/bower-angular-component-router.git checkout Note: checking out 'e7a834db5c2bd9378be5e2644131e0cd5c93c978'.
+31 verbose checkoutTreeish
+31 verbose checkoutTreeish You are in 'detached HEAD' state. You can look around, make experimental
+31 verbose checkoutTreeish changes and commit them, and you can discard any commits you make in this
+31 verbose checkoutTreeish state without impacting any branches by performing another checkout.
+31 verbose checkoutTreeish
+31 verbose checkoutTreeish If you want to create a new branch to retain commits you create, you may
+31 verbose checkoutTreeish do so (now or later) by using -b with the checkout command again. Example:
+31 verbose checkoutTreeish
+31 verbose checkoutTreeish   git checkout -b <new-branch-name>
+31 verbose checkoutTreeish
+31 verbose checkoutTreeish HEAD is now at e7a834d... Dependency version fix and ignore property for bower.json
+32 info git [ 'submodule', '-q', 'update', '--init', '--recursive' ]
+33 verbose updateSubmodules git+https://github.com/rvl/bower-angular-component-router.git submodule update
+34 error addLocal Could not install /var/folders/85/wrtsw2995vj2kq613h1n7zrh0000gn/T/npm-10344-f5fa1e5a/git-cache-4bb7a3b7/e7a834db5c2bd9378be5e2644131e0cd5c93c978
+35 silly fetchPackageMetaData Error: EISDIR: illegal operation on a directory, read
+35 silly fetchPackageMetaData     at Error (native)
+35 silly fetchPackageMetaData  error for https://github.com/rvl/bower-angular-component-router { [Error: EISDIR: illegal operation on a directory, read] errno: -21, code: 'EISDIR', syscall: 'read' }
+36 silly rollbackFailedOptional Starting
+37 silly rollbackFailedOptional Finishing
+38 silly runTopLevelLifecycles Starting
+39 silly runTopLevelLifecycles Finishing
+40 silly install printInstalled
+41 verbose stack Error: EISDIR: illegal operation on a directory, read
+41 verbose stack     at Error (native)
+42 verbose cwd /Users/farongcheng/Documents/WebApp-Workspace/Tinroof_Demo
+43 error Darwin 14.5.0
+44 error argv "/usr/local/bin/node" "/usr/local/bin/npm" "install" "https://github.com/rvl/bower-angular-component-router"
+45 error node v4.2.6
+46 error npm  v3.10.3
+47 error code EISDIR
+48 error errno -21
+49 error syscall read
+50 error eisdir EISDIR: illegal operation on a directory, read
+51 error eisdir This is most likely not a problem with npm itself
+51 error eisdir and is related to npm not being able to find a package.json in
+51 error eisdir a package you are trying to install.
+52 verbose exit [ -21, true ]

@@ -1,0 +1,7 @@
+<div>
+    <ul class="list-group" ng-repeat="user in model.users">
+      <li>
+        <a ng-link="['User-Albums-List', {userId: user.id}]"> {{user.name}} </a>
+      </li>
+    </ul>
+</div>

@@ -1,0 +1,10 @@
+{
+  "scripts": {
+    "go": "lite-server"
+  },
+  "dependencies": {
+  },
+  "devDependencies": {
+    "lite-server": "^2.2.0"
+  }
+}
